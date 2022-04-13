@@ -1,5 +1,5 @@
 <?php 
-    $file = '/etc/goldwatch/gw-dbconfig.json';
+    $file = '/etc/goldwatch/dbconfig.json';
     $data = file_get_contents($file);
     $obj = json_decode($data);
     $hostname =  $obj[0]->hostname;

@@ -93,7 +93,7 @@ hooks:
 # During the BeforeInstall deployment lifecycle event, run the commands
 #   in the script specified in "location".
   BeforeInstall:
-    - location: /scripts/update-dbconfig.sh
+    - location: /scripts/config/update-dbconfig.sh
       timeout: 30
       runas: root
 #    - location:

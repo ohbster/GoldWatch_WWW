@@ -21,4 +21,5 @@ artifacts:
     - GoldWatch_WWW.zip
     - appspec.yml
     - scripts/config/update-dbconfig.sh
+    - content
     #    - GoldWatch-$(date +%Y-%m-%d).zip

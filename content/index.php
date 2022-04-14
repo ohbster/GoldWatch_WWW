@@ -16,7 +16,7 @@ try {
     $conn = new PDO("mysql:host=$hostname;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     //debug echo "Connected to $dbname successfully.";
-    $fmt = numfmt_create('en_US', NumberFormatter::CURRENCY);
+    #$fmt = numfmt_create('en_US', NumberFormatter::CURRENCY);
 
 
     //debug echo "testing: ";

@@ -18,4 +18,4 @@ phases:
 artifacts:
   type: zip
   files:
-    - target/GoldWatch-$(date +%Y-%m-%d).zip
+    - GoldWatch-$(date +%Y-%m-%d).zip

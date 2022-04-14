@@ -47,16 +47,15 @@ try {
                 <h1><p>GoldWatch Price Tracker</p></h1>
                 <h1><p>
                 
-                <br/> Current Price: <?php echo '$'.number_format((float) htmlspecialchars($row['Current']),2,'.', '')?>
-                <br/> Daily High: <?php echo '$'.number_format((float) htmlspecialchars($row['High']),2,'.', '')?>
-                <br/> Daily Low: <?php echo '$'.number_format((float) htmlspecialchars($row['Low']),2,'.', '')?>
-                
+                <br/> Current Price: <?php echo '$'.number_format((float) ($row['Current']),2,'.', '')?>
+                <br/> Daily High: <?php echo '$'.number_format((float) ($row['High']),2,'.', '')?>
+                <br/> Daily Low: <?php echo '$'.number_format((float) ($row['Low']),2,'.', '')?>       
                 </p></h1>
-                <h3><p><br/>
+                <h3><p>
                 <br/> Prices are in USD per Ounce</p></h4>
 
                 <h4>
-                <br/><br/><p>This page is updated every 5 minutes.
+                <br/><p>This page is updated every 5 minutes.
                 <br/>Questions or comments? Feel free to contact <a href ="mailto: ohbster@protonmail.com">ohbster@protonmail.com</a>
                 </p></h4>
 

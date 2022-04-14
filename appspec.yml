@@ -38,7 +38,7 @@ files:
 #   then remove the
 #   "permissions" section altogether. A blank or incomplete "permissions"
 #   section may cause associated deployments to fail.
-  file_exists_behavior: OVERWRITE
+file_exists_behavior: OVERWRITE
 permissions:
 # 700 update-config.sh #640 dbconfig.json.template groupin apache
   - object: /scripts/config

@@ -18,4 +18,6 @@ phases:
 artifacts:
   type: zip
   files:
-    - GoldWatch-$(date +%Y-%m-%d).zip
+    - GoldWatch_WWW.zip
+    - appspec.yml
+    #    - GoldWatch-$(date +%Y-%m-%d).zip

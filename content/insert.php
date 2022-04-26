@@ -8,8 +8,8 @@ if ($conn === false){
 
 $date = new DateTime();
 $time_created = $date->getTimestamp();
-$email = mysql_real_escap_string($conn, $_REQUEST['email']);
-$pricetarget = mysqli_real_escape_string($conn, $_REQUEST['last_name']);
+$email = mysqli_real_escape_string($conn, $_REQUEST['email']);
+$pricetarget = mysqli_real_escape_string($conn, $_REQUEST['pricetarget']);
 
 $sql = "INSERT INTO Alerts_High (Email, Price_Target, Time_Created, Last_Checked)
 VALUES ('$email', $pricetarget, $time_created, $time_created)";
@@ -20,5 +20,5 @@ if(mysqli_query($conn, $sql)){
     echo "Error: Could not execute $sql. " . mysqli_error($conn);  
 }
 
-mysqli_close($link)
+mysqli_close($conn)
 ?>

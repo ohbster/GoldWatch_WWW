@@ -30,7 +30,10 @@ a:active {
     text-decoration: none;}
 </style>
 <html>
-        <title>GoldWatch | Gold price tracker</title>
+<head>
+	<title>GoldWatch | Gold price tracker</title>
+	<meta http-equiv = "refresh" content = "300; url = https://www.goldwatch.link"/> 
+</head>
         <body>
 
 <?php

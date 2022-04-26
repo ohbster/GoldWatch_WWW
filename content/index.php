@@ -5,44 +5,29 @@ require_once 'dbconfig.php';
 <style>
 p   {
     font-familiy: Verdana;
-    text-align: center;     
-    }
+    text-align: center;}
 h1  {
     color: #fefefe;
-    font-size: 32px;
-}
+    font-size: 32px;}
 h2  {
     color: #fdda5c;
-    font-size: 32px;
-}
+    font-size: 32px;}
 h4  {
-    color: #fefefe;
-}
+    color: #fefefe;}
 body {
-background-color: #212121;
-}
-
+    background-color: #212121;}
 a:link { 
     color: #fdda5c;
-    text-decoration: none; 
-}
-
+    text-decoration: none;}
 a:visited { 
     color: #fdda5c;
-    text-decoration: none; 
-}
-
+    text-decoration: none;}
 a:hover { 
     color: #fdda5c;
-    text-decoration: none;
-}
-
+    text-decoration: none;}
 a:active { 
     color: #fdda5c;
-    text-decoration: none; 
-}
-
-
+    text-decoration: none;}
 </style>
 <html>
         <title>GoldWatch | Gold price tracker</title>

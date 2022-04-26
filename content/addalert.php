@@ -24,6 +24,9 @@ a:hover {
 a:active { 
     color: #fdda5c;
     text-decoration: none;}
+label {
+    color: #fefefe;
+    }
 </style>
 
 <html>
@@ -40,7 +43,9 @@ a:active {
 			<label for="pricetarget">Price Target:</label>
 			<input type="text" name="pricetarget" id="PriceTarget">
 		</p>
-		<input type="submit" value="Submit">	
+		<p>
+		<input type="submit" value="Submit">
+		</p>	
 	</form>
 </body>
 </html>

@@ -33,8 +33,7 @@ a:active {
 <head>
 	<title>GoldWatch | Gold price tracker</title>
 	<meta http-equiv = "refresh" content = "300; url = https://www.goldwatch.link"/> 
-</head>
-        <body>
+
 
 <?php
 try {
@@ -67,7 +66,11 @@ try {
 
 
 ?>
-
+<script>
+sessionStorage.setItem("current_price", <?php echo ($row['Current'])?>);
+</script>
+</head>
+        <body>
         <br/>
                 <h2><p>GoldWatch Price Tracker</p></h2>
                 <h1><p>
@@ -78,6 +81,8 @@ try {
                 </p></h1>
                 <h4><p>
                 <br/> Prices are in USD per Ounce</p></h4>
+                <h4><p><a href="addalert_hi.php">Create a Price Jump Alert!</a></p></h4>
+                <h4><p><a href="addalert_lo.php">Create a Price Drop Alert!</a></p></h4>
 
                 <h4>
                 <br/><p>This page is updated every 5 minutes.

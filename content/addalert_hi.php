@@ -1,34 +1,3 @@
-<style>
-p   {
-    font-familiy: Verdana;
-    text-align: center;}
-h1  {
-    color: #fefefe;
-    font-size: 32px;}
-h2  {
-    color: #fdda5c;
-    font-size: 32px;}
-h4  {
-    color: #fefefe;}
-body {
-    background-color: #212121;}
-a:link { 
-    color: #fdda5c;
-    text-decoration: none;}
-a:visited { 
-    color: #fdda5c;
-    text-decoration: none;}
-a:hover { 
-    color: #fdda5c;
-    text-decoration: none;}
-a:active { 
-    color: #fdda5c;
-    text-decoration: none;}
-label {
-    color: #fefefe;
-    }
-</style>
-
 <html>
 <head>
 <meta http-equiv = "refresh" content = "300; url = https://www.goldwatch.link"/> 
@@ -49,6 +18,7 @@ label {
         }
 }
 </script> 
+<link rel="stylesheet" href="mainstyle.css">
 </head>
 <body><h2><p>Current Price: $<span id="curprice"></span></p></h2>
 <script>document.getElementById("curprice").innerHTML = parseFloat(sessionStorage.getItem("current_price")).toFixed(2);</script>

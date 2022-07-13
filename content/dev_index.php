@@ -49,7 +49,9 @@ sessionStorage.setItem("current_price", <?php echo ($row['Current'])?>);
         <br/>
                 <h2><p>GoldWatch Price Tracker</p></h2>
                 <h1><p>
-                
+                <canvas id="lineChart" height=600 width="600"></canvas>
+                <script src="scripts/Chart.js"></script>
+                <script src="scripts/main.js"></script>
                 <br/> Current Price: <?php echo '$'.number_format((float) ($row['Current']),2,'.', '')?>
                 <br/> Daily High: <?php echo '$'.number_format((float) ($row['High']),2,'.', '')?>
                 <br/> Daily Low: <?php echo '$'.number_format((float) ($row['Low']),2,'.', '')?>       
